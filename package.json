@@ -1,6 +1,6 @@
 {
   "name": "browser-crypto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,13 +19,12 @@
     "url": "https://github.com/prih/browser-crypto/issues"
   },
   "homepage": "https://github.com/prih/browser-crypto#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "bip39": "^3.0.3",
     "bitcoinjs-lib": "^5.2.0",
     "ethereumjs-tx": "^2.1.2",
-    "ethereumjs-util": "^7.0.7"
-  },
-  "devDependencies": {
+    "ethereumjs-util": "^7.0.7",
     "browserify": "^17.0.0",
     "uglify-es": "^3.3.9"
   }
