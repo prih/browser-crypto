@@ -1,0 +1,32 @@
+{
+  "name": "browser-crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -e index.src.js -o dist/index.build.js",
+    "minify": "uglifyjs -c -o index.js dist/index.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prih/browser-crypto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prih/browser-crypto/issues"
+  },
+  "homepage": "https://github.com/prih/browser-crypto#readme",
+  "dependencies": {
+    "bip39": "^3.0.3",
+    "bitcoinjs-lib": "^5.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.0.7"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-es": "^3.3.9"
+  }
+}
