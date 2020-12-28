@@ -14,7 +14,7 @@ ethereumjs = require('ethereumjs-util');
 ethereumjsTx = require('ethereumjs-tx');
 secp256k1 = require('tiny-secp256k1');
 validator = require('multicoin-address-validator');
-bitcoinValidator = require('bitcoin-address-validation').validator;
+bitcoinValidator = require('bitcoin-address-validation').validate;
 
 exports.crypto = crypto;
 exports.bip39 = bip39;
